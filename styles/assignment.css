@@ -216,7 +216,7 @@ button {
 }
 
 .brain-content {
-  padding: 102px 80px 102px 80px;
+  padding: 102px 80px 102px 100px;
   align-content: center;
   max-width: 700px;
 }
@@ -241,9 +241,11 @@ button {
 
 
 .brain-image {
-  padding: 20px 60px 120px 120px;
+  padding: 20px 100px 120px 120px;
   padding-left: 20px;
   padding-right: 20px;
+  width:600px;
+  height: 600px;
 }
 
 .icon-text {
@@ -262,7 +264,7 @@ button {
   flex-direction: row;
   gap: 8px;
   line-height: 1.25;
- padding-left: 28px;
+ 
 }
 
 .icon-text li span {
@@ -274,6 +276,7 @@ button {
 .brain {
   display: flex;
   padding: 0 120px 0 120px;
+  max-width: 1360px;
 }
 
 .think-info {
