@@ -216,7 +216,7 @@ button {
 }
 
 .brain-content {
-  padding: 102px 120px 102px 80px;
+  padding: 102px 80px 102px 80px;
   align-content: center;
   max-width: 700px;
 }
@@ -229,13 +229,14 @@ button {
 
 .brain-content h1{
   color:#001931;
-  font-size:48px;
+  font: size 40px;
   margin-bottom:10px;
 }
 
 .brain-content p{
   color:#627382;
   line-height:20px;
+  text-align: justify;
 }
 
 
@@ -261,10 +262,7 @@ button {
   flex-direction: row;
   gap: 8px;
   line-height: 1.25;
-
-  /* align-items: flex-start;
-  position: relative;
-  padding-left: 28px; */
+ padding-left: 28px;
 }
 
 .icon-text li span {
