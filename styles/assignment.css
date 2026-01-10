@@ -252,9 +252,6 @@ button {
   display: inline-flex;
   flex-direction: column;
   list-style: none;
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* gap: 8px; */
   margin-bottom: 6px;
   padding: 0;
 }
@@ -345,14 +342,10 @@ button {
 }
 
 .footer-logo img {
-  width: 40px;
+  width: 78px;
   margin-left: 120px;
 }
 
-.footer-logo span {
-  font-size: 18px;
-  font-weight: 600;
-}
 
 .footer-social{
   margin-right: 150px;
